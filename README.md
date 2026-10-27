@@ -92,7 +92,7 @@ npm run typecheck          # TypeScript check, no emit
 
 - [x] Project scaffolded; first smoke test passing against ForgeMart
 - [x] Folder structure
-- [ ] Environment-driven config, projects, reporters, tsconfig aliases, scripts (in progress)
+- [x] Environment-driven config, projects, reporters, tsconfig aliases, scripts
 - [ ] Page Object Model
 - [ ] Custom fixtures
 - [ ] Authentication per role (saved sessions)

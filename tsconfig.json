@@ -8,5 +8,14 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["tests", "playwright.config.ts"]
+  "baseUrl": ".",
+"paths": {
+  "@pages/*": ["src/pages/*"],
+  "@components/*": ["src/components/*"],
+  "@api/*": ["src/api/*"],
+  "@fixtures/*": ["src/fixtures/*"],
+  "@data/*": ["src/data/*"],
+  "@utils/*": ["src/utils/*"]
+},
+  "include": ["tests", "src", "playwright.config.ts"]
 }
